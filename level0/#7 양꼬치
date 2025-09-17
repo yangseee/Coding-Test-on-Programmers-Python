@@ -1,0 +1,6 @@
+#https://school.programmers.co.kr/learn/courses/30/lessons/120830?language=python3
+
+def solution(n, k):
+    free_k = n // 10
+    answer = (12000 * n) + (2000 * k) - (free_k * 2000)
+    return answer
