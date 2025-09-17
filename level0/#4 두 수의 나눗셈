@@ -1,0 +1,7 @@
+#https://school.programmers.co.kr/learn/courses/30/lessons/120806?language=python3
+
+def solution(num1, num2):
+    tmp = 0
+    tmp = (num1 / num2) * 1000
+    answer = int(tmp)
+    return answer
